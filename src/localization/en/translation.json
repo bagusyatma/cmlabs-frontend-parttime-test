@@ -1,0 +1,18 @@
+{
+  "title_ingredients": "Recipes by ingredients",
+  "title_meals": "{{ingredient}} Recipes",
+
+  "text_loading": "Loading...",
+  "text_error": "Looks like you've got lost...",
+  "description_error": "The page you've looking for doesn't exist or has been moved.",
+  "text_not_found": "The data you are looking for is not found.",
+
+  "placeholder_search": "Search for {{field}}",
+
+  "field_ingredients": "Ingredients",
+  "field_meals": "Meals",
+  "field_instructions": "Instructions",
+  "field_videos": "Video",
+
+  "button_back": "Back"
+}
