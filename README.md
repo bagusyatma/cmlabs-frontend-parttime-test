@@ -20,12 +20,12 @@ Sebelum memulai, pastikan telah terinstal:
 
 2. **Masuk ke direktori proyek**
 
-  ```bash
-  npm install
-  ```
+   ```bash
+   npm install
+   ```
 
 3. **Instal dependensi**
 
-  ```bash
-  npm run dev
-  ```
+   ```bash
+   npm run dev
+   ```
