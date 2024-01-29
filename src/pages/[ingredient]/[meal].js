@@ -59,9 +59,9 @@ export default function Meal({ data }) {
           </div>
         </div>
 
-        <div className="p-4">
+        <div className="relative p-4">
           <div className="flex flex-col gap-4 xl:flex-row">
-            <div className="flex-shrink-0 w-full h-80 sm:w-[500px]  xl:w-[384px] xl:h-[384px] 2xl:w-[500px] 2xl:h-[500px] overflow-hidden rounded-3xl">
+            <div className="xl:sticky xl:top-24 flex-shrink-0 w-full h-80 sm:w-[500px]  xl:w-[384px] xl:h-[384px] 2xl:w-[500px] 2xl:h-[500px] overflow-hidden rounded-3xl">
               <Image src={data.strMealThumb} width={500} height={500} alt={data.strMeal} className="relative bottom-6 xl:bottom-0" />
             </div>
 
@@ -82,7 +82,7 @@ export default function Meal({ data }) {
               <div dangerouslySetInnerHTML={{ __html: data.strInstructions }} className="text-justify" />
 
               <div className="mt-4 mb-2 text-2xl font-bold">{t('field_video')}</div>
-              <div className="flex items-center justify-center">
+              <div className="flex items-center justify-center lg:justify-normal">
                 <iframe
                   width="560"
                   height="315"
