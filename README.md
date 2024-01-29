@@ -1,13 +1,13 @@
 # Nama Proyek
 
-Mealapar
+Mealapar!
 
 ## Persyaratan
 
 Sebelum memulai, pastikan telah terinstal:
 
 - [node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/) (biasanya diinstal bersamaan dengan Node.js)
+- [npm](https://www.npmjs.com/) (biasanya diinstal bersamaan dengan node.js)
 - [next.js](https://nextjs.org/)
 
 ## Instalasi
@@ -16,13 +16,16 @@ Sebelum memulai, pastikan telah terinstal:
 
    ```bash
    git clone https://github.com/username/nama-proyek.git
+   ```
 
 2. **Masuk ke direktori proyek**
 
-  ````bash
+  ```bash
   npm install
+  ```
 
 3. **Instal dependensi**
 
   ```bash
   npm run dev
+  ```
